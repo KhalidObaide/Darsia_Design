@@ -5,9 +5,9 @@ we will post the darsia back-end code in another .git later on we will give you 
 
 
 # on Linux 
-download the git repos ``` git clone https://github.com/KhalidObaide/Darsia_Design.git ```
-change directory to the place ``` cd darsia_Design ```
-run the website ``` firefox index.html ```
+download the git repos ``` git clone https://github.com/KhalidObaide/Darsia_Design.git ``` [Download]
+change directory to the place ``` cd darsia_Design ``` [Directory]
+run the website ``` firefox index.html ``` [Run]
 
 Enjoy the website
 
