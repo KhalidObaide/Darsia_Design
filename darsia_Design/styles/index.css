@@ -5,15 +5,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300i&display=swap');
 
 
-
-@media screen and (max-width: 320px) {
-    .all{
-        margin-right : -24px;
-    }
-    .top-logo{
-        margin-right : -24px;
-    }
+html{
+    margin : 0;
+    padding : 0;
+    
 }
+.subscribe-ipt-container {
+    margin-right : -24px;
+}
+
 .not-sup{
     display: none;
     text-align: right;
@@ -25,18 +25,6 @@
     color : black;
     width : 100%;
 }
-
-/* only for iphone 5/se or smaller */
-html{
-    margin : 0;
-    padding : 0;
-    
-}
-.subscribe-ipt-container {
-    margin-right : -24px;
-}
-
-
 
 
 /* not supporting screens */
@@ -106,11 +94,12 @@ html{
     
     .what-one{
         color : white;
+        font-size: 30px; /* change this when screen is bigger */
+
         position: absolute;
-        font-size: 30px;
-        top : 22%;
+        top : 140px;
         right : 8px;
-        transform: translate(-8px, -22%);
+        transform: translate(-8px, -0);
     }
     
     .what-two{
@@ -118,14 +107,14 @@ html{
         color : #5AEB83;
         position: absolute;
         font-size: 80px;
-        top : 2%;
+        top : 30px; /* 10px for iphone 5/se */
         right : 25%;
         transform: translate(-25%, -22%);
     }
     
     .search-input{
         position: absolute;
-        top : 48%;
+        top : 318px;
         left : 50%;
         transform: translate(-50%, -50%);
         background-color : white;
@@ -142,7 +131,7 @@ html{
     
     .search-icon {
         position: absolute;
-        top : 48%;
+        top : 318px;
         left : 7%;
         transform: translate(-7%, -48%);
     }
@@ -487,6 +476,24 @@ html{
         margin-top : -40px;
         position: absolute;
         left : 26%;
+    }
+}
+
+/* only for iphone 5/se */
+@media screen and (max-height: 568px) {
+    .all{
+        margin-right : -24px;
+    }
+    .top-logo{
+        margin-right : -24px;
+    }
+
+    .what-two {
+        top : 5px;
+    }
+
+    .what-one{
+        top : 110px;
     }
 }
 
