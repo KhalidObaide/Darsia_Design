@@ -4,6 +4,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300i&display=swap');
 
+
+
+@media screen and (max-width: 320px) {
+    .all{
+        margin-right : -24px;
+    }
+    .top-logo{
+        margin-right : -24px;
+    }
+}
 .not-sup{
     display: none;
     text-align: right;
@@ -20,15 +30,13 @@
 html{
     margin : 0;
     padding : 0;
-    margin-right : -24px;
+    
 }
 .subscribe-ipt-container {
     margin-right : -24px;
 }
 
-.top-logo{
-    margin-right : -24px;
-}
+
 
 
 /* not supporting screens */
@@ -458,6 +466,35 @@ html{
 
         color: #FFFFFF;
     }
+}
 
+@media screen and (min-width: 800px) {
+    .sub-container{
+        width : 49%;
+    }
+    .subscribe-ipt-container{
+        position: relative;
+        right : -20px;
+    }
 
-  }
+    .one-cta  {
+        margin-top : -20px;
+        position: absolute;
+        left : 3.1%;
+    }
+
+    .subscribe-text{
+        margin-top : -40px;
+        position: absolute;
+        left : 26%;
+    }
+}
+
+.copy{
+    color : white;
+    font-size: 15px;
+    font-family : 'Roboto' , sans-serif;
+    position: relative;
+    top : 50px;
+}
+
