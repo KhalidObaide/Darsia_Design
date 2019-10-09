@@ -26,32 +26,44 @@
     </h1>
     <div class="all">
     <div class="top-header">
-        <a href="#"><img src="./images/hum.svg" class="hum-icon" /></a>
-        <!--
-        <ul>
-            <center>
-                <li>Login</li>
-                <li>Teachers</li>
-                <li>Courses</li>
-                <li>Reviews</li>
-            </center>
-        </ul>
-        -->
+        <div class="top-layer">
+            <img id="bring" src="./images/hum.svg" class="hum-icon" />
+            
+            <ul id="men">
+                <a href="#" id="close"><li class="hide-ul"></li></a>
+                <a><li class="active">
+                    الصفحة الرئيسية 
+                </li></a>
+                <a href="#"><li class="rest">
+                     تسجيل الدخول
+                </li></a>
+                <a href="#"><li class="rest">
+                    معلمون
+                </li></a>
+                <a href="#"><li class="rest">
+                    الدورات
+                </li></a>
+                <a href="#"><li class="rest">
+                    مراجعات
+                </li></a>
+            </ul>
 
-        <button class="button cta-zero">إنشاء الحساب</button>
-        <img src="./images/logo.svg" class="top-logo" />
-        <center class="whats">
-            <p class="what-one">
-                يوجد دائماً من هو أشقى منك
-            </p>
-            <p class="what-two">
-                فابتسم
-            </p>
-        </center>
-        <form>
-            <input class="search-input" placeholder="ابحث 3,546 من القوائم" dir="rtl" />
-            <img src="./images/searhc-icon.svg" class="search-icon" />
-        </form>
+
+            <button class="button cta-zero" id="cta">إنشاء الحساب</button>
+            <img src="./images/logo.svg" class="top-logo" />
+            <center class="whats">
+                <p class="what-one">
+                    يوجد دائماً من هو أشقى منك
+                </p>
+                <p class="what-two">
+                    فابتسم
+                </p>
+            </center>
+            <form>
+                <input class="search-input" placeholder="ابحث 3,546 من القوائم" dir="rtl" />
+                <img src="./images/searhc-icon.svg" class="search-icon" />
+            </form>
+        </div>
     </div>
     <br>
     <p class="sub-title">
@@ -415,5 +427,24 @@
 </div>
 
 </body>
+<script>
+    function showMenu(){
+        let menu = document.getElementById('men');
+        let bring = document.getElementById('bring');
+        let close = document.getElementById('close');
+        let cta = document.getElementById('cta');
 
+        bring.addEventListener('click', function(e){
+            menu.style.display = 'block';
+            cta.style.marginLeft = '120px';
+        });
+
+        close.addEventListener('click', function(e){
+            menu.style.display = 'none';
+            cta.style.marginLeft = '0px';
+        });
+    }
+
+    showMenu();
+</script>
 </html>
