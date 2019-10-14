@@ -1,10 +1,10 @@
 # Designing 
 01.[COMPLETED] Designing The Index Page [Phone, Desktop]
 02.[COMPLETED] Designing Login and Signup page [phone, Desktop]
-03.[         ] Desgining Logged index page (user info) [phone Desktop]
+03.[COMPLETED] Desgining Logged index page (user info) [phone Desktop]
 04.[         ] Designing Course Details page [phone Desktop]
 05.[         ] Designing One Viedeo Details page [phone Desktop]
-06.[         ] Designing User Details Page [phone Desktop]
+06.[COMPLETED] Designing User Details Page [phone Desktop]
 07.[         ] Designing Teacher Login and Sign in Page [phone Desktop]
 08.[         ] Designing Teacher Details Page [phone Desktop]
 09.[         ] Designing Teacher logged in index page [phone Desktop]
