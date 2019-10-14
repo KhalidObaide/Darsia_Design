@@ -8,5 +8,5 @@
 07.[         ] Designing Teacher Login and Sign in Page [phone Desktop]
 08.[         ] Designing Teacher Details Page [phone Desktop]
 09.[         ] Designing Teacher logged in index page [phone Desktop]
-10.[         ] Designing all Reviews Page [phone Desktop]
+10.[COMPLETED] Designing all Reviews Page [phone Desktop]
 11.[         ] Designing More What In Comes To mind Later
