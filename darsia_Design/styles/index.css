@@ -160,6 +160,14 @@ html{
 .sub-sub-sub{
     margin-top : -25px;
 }
+
+.sub-sub-sub-title{
+    font-size : 24px;
+    width : 60%;
+    text-align: right;
+    position: relative;
+    left : 30%;
+}
 .user-data{
     
     position: relative;
@@ -311,7 +319,32 @@ html{
     text-align: right;
 
 }
+.course-cta{
+    background-color: red;
+    width : 20%;
+    min-width: 160px;
+    text-align: center;
+    margin-top : -200px;
+    height: 60px;
+    color : white;
+    display: grid;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 600px;
+    cursor: pointer;
+}
+.course-cta:hover{
+    opacity: 0.2;
+}
 
+.sub-tree-title{
+    font-size: 20px;
+    margin-right : 70px;
+    text-align : right;
+    margin-top : 5px;
+    margin-bottom: -15px;
+}
 /* not supporting screens */
 @media screen and (max-width: 319px) {
     .all{
@@ -327,7 +360,13 @@ html{
 /* starting for bigger screens simple phones */
 @media screen and (min-width: 320px) {
 
-
+    .sub-sub-sub-title{
+        font-size : 24px;
+        width : 70%;
+        text-align: right;
+        position: relative;
+        left : 20%;
+    }
     body{
         margin : 0;
         padding : 0;
@@ -335,9 +374,18 @@ html{
     }
     
     .top-header{
-    
         background: linear-gradient(203.25deg, rgba(138, 0, 0, 0.78) -15.43%, rgba(0, 0, 0, 0.28) 102.88%), url(../images/library.jpg);    width: 100%;
-        height: 443px;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .intro-top-header{  
+        margin-bottom: 40px; 
+        border : none;
+        outline : none;     
+        height: 500px;
+        width : 100%;
         background-position: center;
         background-size: cover;
     }
@@ -436,6 +484,12 @@ html{
         margin-top  : -25px;
         margin-bottom: -25px;
         text-align: right;
+    }
+    .index-sub-sub-title{
+        font-size: 40px;
+        margin-top  : -25px;
+        margin-bottom: -25px;
+        text-align: center;
     }
     
     .des {
@@ -775,13 +829,20 @@ html{
 
     .hide-ul {
         position: absolute;
-        top : 40px;
+        top : 0px;
         left : 20px;
     }
 }
 
 @media screen and (min-width: 800px) {
 
+    .sub-sub-sub-title{
+        font-size : 24px;
+        width : 60%;
+        text-align: right;
+        position: relative;
+        left : 30%;
+    }
     .user-data{
     
         position: relative;
@@ -911,6 +972,11 @@ li:hover{
     opacity: 0.5;
     cursor: pointer;
 }
+.intro-top{
+    background-color : Red;
+    position: absolute;
+    top : 20px;
+}
 
 
 @media screen and (min-width : 630px){
@@ -921,7 +987,6 @@ li:hover{
         font-size: 30px;
         line-height: 35px;
     }
-    
 
     ul{
         display: inline-block;
@@ -1001,6 +1066,17 @@ li:hover{
     /* background image */
     .top-header{
         background-image: url('../images/spiderman_learning.jpg');
+        background-position: center; 
+        background-size: cover;
+        background-repeat : no-repeat;
+    }
+
+
+    .intro-top-header{
+        margin-bottom: 40px;
+        border : none;
+        outline : none;
+        width : 100%;
         background-position: center; 
         background-size: cover;
         background-repeat : no-repeat;
