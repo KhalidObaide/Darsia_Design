@@ -5,7 +5,7 @@
 04.[COMPLETED] Designing Course Details page [phone Desktop]
 05.[COMPLETED] Designing One Viedeo Details page [phone Desktop]
 06.[COMPLETED] Designing User Details Page [phone Desktop]
-07.[         ] Designing Teacher Login and Sign up Page [phone Desktop]
+07.[COMPLETED] Designing Teacher Login and Sign up Page [phone Desktop]
 08.[         ] Designing Teacher Details Page [phone Desktop]
 09.[         ] Designing Teacher logged in index page [phone Desktop]
 10.[COMPLETED] Designing all Reviews Page [phone Desktop]
